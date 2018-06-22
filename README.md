@@ -4,5 +4,5 @@ Version 1.01
   - Code refactor.
   
   
-Version1.0
+Version 1.0
   - Angular JS V1.6 Template (2 Views with unique Modules, Components and Templates). 
