@@ -3,6 +3,5 @@ angular.module('myApp',[
     'ngRoute',
     'getTime',  /*Date/Time module */
     'view1',    /*View 1*/
-    'view2'		/*View 2*/
-    
+    'view2'     /*View 2*/
     ]);

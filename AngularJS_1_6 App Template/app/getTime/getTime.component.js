@@ -1,11 +1,10 @@
-//Angular Component
-
 angular.
         module('getTime').
         component('getTime', {
-            templateUrl: 'app/getTime/getTime.template.html',
-            
-            controller: function getTime($scope){
-                $scope.time = new Date();
-               }
+            templateUrl: 'app/getTime/getTime.template.html' ,
+            controller: function($scope, shareTime){
+                var self = this;
+                self.time = shareTime.currentTime;
+                console.log("version 1.01 22/06/2018")
+                }
 });

@@ -1,11 +1,14 @@
-//Angular Component
-
 angular.
         module('view1').
             component('view1', {
-                templateUrl:'app/view1/view1.template.html'/*,
+                templateUrl:'app/view1/view1.template.html',
                 
-                controller:[ '$http', 
+                controller:['$scope', 'shareTime', function($scope, shareTime){
+                var self = this;
+                self.time = shareTime.currentTime;
+               }
+                
+                /*[ '$http', 
                     function CardReadController($http){
                         var self = this;
                     
@@ -13,9 +16,9 @@ angular.
                         self.response = response.data.?****?;
                         console.log(self.response);
                     });
-                } 
+                }*/ 
             ]
-			*/
+			
 });
 
 

@@ -1,4 +1,3 @@
-//Angular Links Router
 angular.
     module('myApp').
     config(['$locationProvider', '$routeProvider',

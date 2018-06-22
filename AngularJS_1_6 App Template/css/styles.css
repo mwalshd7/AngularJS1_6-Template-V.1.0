@@ -2,7 +2,6 @@
 .appBorder{
 	margin: 20px 60px 20px 100px;
 }
-	
 
 h1{
 	font-family: Yu Gothic UI Light;
@@ -27,6 +26,9 @@ h2{
 h3{
     font-family: Yu Gothic UI Light;
     padding-left: 30px;
+}
+#view1Time {
+    padding-left: 10px;
 }
 
 /* Card Styling */
