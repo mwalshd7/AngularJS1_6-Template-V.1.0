@@ -1,4 +1,4 @@
-//Angular Controller
+//Angular Component
 
 angular.
         module('getTime').
