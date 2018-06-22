@@ -1,4 +1,4 @@
-# AngularJS1_6-Template-V.1.01
+# AngularJS1_6-Template-1.01
 Version 1.01
   - Added shared data service factory'sharedtime'.
   - Code refactor.
